@@ -6,7 +6,7 @@ export default function HomePage({ isAuthenticated }) {
     <div className="min-h-screen bg-[#2f3e46]">
       {/* Hero Section */}
       <div 
-        className="relative h-screen bg-cover bg-center"
+        className="relative h-[80vh] bg-cover bg-center"
         style={{
           backgroundImage: "url('https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')"
         }}
